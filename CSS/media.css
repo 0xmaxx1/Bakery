@@ -1,0 +1,144 @@
+@media (max-width: 1199px) {
+  .who-sec .container .info-who {
+    flex-basis: 44%;
+  }
+  .who-sec .container .image {
+    flex-basis: 49%;
+  }
+  .our-location .container .info-location {
+    flex-basis: 44%;
+  }
+  .our-location .container .img-location {
+    flex-basis: 49%;
+  }
+  .contact-info .container .info-contact {
+    flex-basis: 44%;
+  }
+  .contact-info .container .frame-contact {
+    flex-basis: 49%;
+  }
+  .footer-main .container .item {
+    flex-basis: calc((100% - 45px) / 3);
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 991px) {
+  :has(#barrr:checked) nav ul.navv {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999999;
+  }
+  .header .container ul.navv li a.active,
+  .header .container ul.navv li a {
+    padding: 15px;
+    color: #000;
+    font-size: 17px;
+    border-bottom: 1px solid #dddddd;
+  }
+  .header .container .navv .blog-head:hover ul,
+  .header .container ul.navv li a.active::before,
+  .header .container ul.navv {
+    display: none;
+  }
+  .bar {
+    display: initial;
+    color: #000;
+  }
+  .header {
+    background-color: #fff;
+    position: relative;
+  }
+  .dark {
+    display: block;
+  }
+  .light {
+    display: none;
+  }
+  .cards .card {
+    flex-basis: calc(96% / 2);
+    margin-bottom: 40px;
+  }
+  .footer-main .container .item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media (max-width: 767px) {
+  .who-sec .container .info-who {
+    flex-basis: 100%;
+  }
+  .who-sec .container .image {
+    flex-basis: 100%;
+  }
+  .who-sec .container {
+    gap: 75px;
+  }
+  .footer-main .container .item {
+    flex-basis: 100%;
+  }
+  .bg img {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+  .our-location .container .info-location {
+    flex-basis: 100%;
+    margin-bottom: 50px;
+  }
+  .our-location .container .img-location {
+    flex-basis: 100%;
+  }
+  .our-location .info-location h2 {
+    margin-bottom: 26px;
+    font-size: 24px;
+  }
+  .cards .card {
+    flex-basis: calc(100%);
+  }
+  .contact-info .container .info-contact {
+    flex-basis: 100%;
+    margin-bottom: 50px;
+  }
+  .contact-info .container .frame-contact {
+    flex-basis: 100%;
+  }
+  .contact-info .container .info-contact h1 {
+    margin-bottom: 26px;
+    font-size: 24px;
+  }
+  .info-who h1 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1280px;
+  }
+}
